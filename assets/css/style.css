@@ -1,8 +1,60 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: auto;
+}
+
+main {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
 ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li a {
+    float: right;
+    padding: 26px 20px;
+    text-align: center;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.navbar {
+    width: auto;
+    height: 80px;
+    background-color: cornflowerblue;
 }
 
 img {
     height: 425px;
     width: 425px;
+}
+
+.contactform {
+    width: auto;
+    height: 150px;
+    text-align: center;
+    padding: 50px 50px;
+    background-color: #b7d5e6;
+}
+
+footer {
+    width: auto;
+    height: 60px;
+    background-color: cornflowerblue;
+}
+
+#webcopy {
+    color: #ffffff;
+    padding: 20px 25px;
+    text-align: center;
 }
