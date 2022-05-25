@@ -8,39 +8,47 @@
 </head>
 
     <body>
-        <nav class="navbar">
-            <ul>
-                <li><a href="#">Github</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="navbar">
+            <div class="container">
+                <nav>
+                    <ul class="primary-nav">
+                        <li><a href="#">Github</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
 
         <header>
-            <h1>HELLO, WORLD!</h1>
+            <h1>My New Website</h1>
+
+            <section>
+                <img id="devroy-logo" src="./assets/images/image-devroy.png" alt="DevRoy Website Logo">
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </section>
         </header>
 
-        <main>
-            <img src="./assets/images/image-devroy.png" alt="website name devroy logo">
+        <div class="contact-form">
+            <h2>Contact Me</h2>
 
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            <div class="container-form">
+                <form action="action_page.php">
+                    <fieldset>
+                        <label for="username">Name</label>
+                        <input type="text" id="username" name="name" placeholder="Your name..."><br>
 
-            <section class="contactform">
-                <h2>Contact Me</h2>
-
-                <form action="#" method="post" enctype="multipart/form-data"></form>
-                    <div>
-                        <label for="name">Name:</label>
-                        <input name="name" type="text" value="" size="30"><br>
-                        <label for="email">Email:</label>
-                        <input name="email" type="text" value="" size="30"><br>
+                        <label for="useremail">Email</label>
+                        <input type="text" id="useremail" email="email" placeholder="Your email..."><br>        
                         <input type="submit" value="Submit">
-                    </div>
-            </section>
-        </main>
+                    </fieldset>    
+                </form>
+            </div>
+        </div>
 
         <footer>
-            <p id="webcopy">© 2022 DevRoy Website</p>
+            <p id="devroy-footer">2022 DEVRoy Website</p>
         </footer>
     </body>
 
