@@ -28,6 +28,10 @@ a {
     color: floralwhite;
 }
 
+a:hover {
+    color: skyblue;
+}
+
 .container {
     padding: 14px;
     float: right;
